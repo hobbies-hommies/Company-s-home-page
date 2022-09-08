@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+}
+
+p {
+    font-size: 1rem;
+}
+
+h1, h2, p {
+    line-height: 2;
+}
+
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header div {
+    margin-left: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+}
+
+header nav {
+    display: inline-flex;
+}
+
+header nav a {
+    padding-right: 2.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #303030;
+}
+
+header div img {
+    width: 100%;
+}
+
+header div h1 {
+    color: #303030;
+}
+
+h1 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.about {
+    color: #12aa9e;
+}
+
+.catalog {
+    color: #fcb03c;
+}
+
+.ourteam {
+    color: #e71f44;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about img {
+    width: 100%;
+    max-height: 33rem;
+}
+
+#about div {
+    position: absolute;
+    background-color: white;
+}
+
+#catalog h1, #team h1{
+    text-align: center;
+}
+
+#catalog, #team {
+    display: flex;
+    flex-direction: column;
+}
+
+#catalog img, #team .gallery div {
+    width: 400px;
+    margin-bottom: 1rem;
+}
+
+#team div img {
+    width: 100%;
+    margin-bottom: 1rem;
+    max-height: 15rem;
+}
+
+.gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#team .gallery {
+    margin-top: 1rem;
+}
+
+#team .gallery div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#team .gallery div h2 {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    border: 1px #303030 solid;
+}
+
+
+
+
